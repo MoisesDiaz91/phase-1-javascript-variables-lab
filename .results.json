@@ -2,12 +2,12 @@
   "stats": {
     "suites": 4,
     "tests": 6,
-    "passes": 4,
+    "passes": 6,
     "pending": 0,
-    "failures": 2,
-    "start": "2023-10-02T15:45:58.562Z",
-    "end": "2023-10-02T15:45:58.790Z",
-    "duration": 228
+    "failures": 0,
+    "start": "2023-10-02T17:26:51.920Z",
+    "end": "2023-10-02T17:26:52.187Z",
+    "duration": 267
   },
   "tests": [
     {
@@ -43,49 +43,18 @@
       "fullTitle": "index.js companyCeo is declared as equal to Susan Smith",
       "duration": 0,
       "currentRetry": 0,
-      "err": {
-        "stack": "ReferenceError: companyCeo is not defined\n    at Context.<anonymous> (test/indexTest.js:31:14)\n    at process.processImmediate (node:internal/timers:476:21)",
-        "message": "companyCeo is not defined"
-      }
+      "err": {}
     },
     {
       "title": "is defined using let",
       "fullTitle": "index.js companyCeo is defined using let",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
-      "err": {
-        "message": "Expected companyCeo to be defined using let: expected 'const companyName = \"Scuber\";\\n\\nlet mostProfitableNeighborhood = \"Chelsea\";' to match /let companyCeo/",
-        "showDiff": false,
-        "actual": "const companyName = \"Scuber\";\n\nlet mostProfitableNeighborhood = \"Chelsea\";",
-        "stack": "AssertionError: Expected companyCeo to be defined using let: expected 'const companyName = \"Scuber\";\\n\\nlet mostProfitableNeighborhood = \"Chelsea\";' to match /let companyCeo/\n    at Context.<anonymous> (test/indexTest.js:35:21)\n    at process.processImmediate (node:internal/timers:476:21)"
-      }
+      "err": {}
     }
   ],
   "pending": [],
-  "failures": [
-    {
-      "title": "is declared as equal to Susan Smith",
-      "fullTitle": "index.js companyCeo is declared as equal to Susan Smith",
-      "duration": 0,
-      "currentRetry": 0,
-      "err": {
-        "stack": "ReferenceError: companyCeo is not defined\n    at Context.<anonymous> (test/indexTest.js:31:14)\n    at process.processImmediate (node:internal/timers:476:21)",
-        "message": "companyCeo is not defined"
-      }
-    },
-    {
-      "title": "is defined using let",
-      "fullTitle": "index.js companyCeo is defined using let",
-      "duration": 1,
-      "currentRetry": 0,
-      "err": {
-        "message": "Expected companyCeo to be defined using let: expected 'const companyName = \"Scuber\";\\n\\nlet mostProfitableNeighborhood = \"Chelsea\";' to match /let companyCeo/",
-        "showDiff": false,
-        "actual": "const companyName = \"Scuber\";\n\nlet mostProfitableNeighborhood = \"Chelsea\";",
-        "stack": "AssertionError: Expected companyCeo to be defined using let: expected 'const companyName = \"Scuber\";\\n\\nlet mostProfitableNeighborhood = \"Chelsea\";' to match /let companyCeo/\n    at Context.<anonymous> (test/indexTest.js:35:21)\n    at process.processImmediate (node:internal/timers:476:21)"
-      }
-    }
-  ],
+  "failures": [],
   "passes": [
     {
       "title": "is set as Scuber",
@@ -111,6 +80,20 @@
     {
       "title": "is defined using let",
       "fullTitle": "index.js mostProfitableNeighborhood is defined using let",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "is declared as equal to Susan Smith",
+      "fullTitle": "index.js companyCeo is declared as equal to Susan Smith",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "is defined using let",
+      "fullTitle": "index.js companyCeo is defined using let",
       "duration": 0,
       "currentRetry": 0,
       "err": {}
